@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cal_on.usbterminal.MainActivity">
+    <item
+        android:id="@+id/tagid"
+        android:orderInCategory="100"
+        android:title="RTMS TagID"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/weighment"
+        android:orderInCategory="100"
+        android:title="RTMS Weighment"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/offline"
+        android:orderInCategory="100"
+        android:title="RTMS Offline"
+        app:showAsAction="never" />
+</menu>
